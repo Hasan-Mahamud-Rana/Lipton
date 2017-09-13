@@ -1,0 +1,1492 @@
+/*
+Theme Name:         enkopstorforskel
+Theme URI:          http://enkopstorforskel.dk
+Github Theme URI:   
+Description:        enkopstorforskel is a Corporate theme based on Foundation 5 by Zurb. Which is design and developed by Bording Vista Web Team.
+Version:            5.5.2
+Author:             Bording Vista
+Author URI:         http://www.bordingvista.com
+*/
+.prfooter a.bki {
+	background: url(img/BKI-logo.png) no-repeat;
+	width: 135px;
+	height: 85px;
+	background-size: cover;
+}
+.product-text a {
+	color: #000;
+}
+.apply, .fixed, .questions, .workflow, footer, header {
+	border-color: #cdcdcd;
+	border-style: solid
+}
+a.bki, a.lipton, a.logo {
+	display: block
+}
+@font-face {
+	font-family: dinbold;
+	src: url(font/din-bold-webfont.eot);
+	src: url(font/din-bold-webfont.eot?#iefix) format('embedded-opentype'), url(font/din-bold-webfont.woff2) format('woff2'), url(font/din-bold-webfont.woff) format('woff'), url(font/din-bold-webfont.ttf) format('truetype'), url(font/din-bold-webfont.svg#dinbold) format('svg');
+	font-weight: 400;
+	font-style: normal
+}
+@font-face {
+	font-family: dinregular;
+	src: url(font/din-regular-webfont.eot);
+	src: url(font/din-regular-webfont.eot?#iefix) format('embedded-opentype'), url(font/din-regular-webfont.woff2) format('woff2'), url(font/din-regular-webfont.woff) format('woff'), url(font/din-regular-webfont.ttf) format('truetype'), url(font/din-regular-webfont.svg#dinregular) format('svg');
+	font-weight: 400;
+	font-style: normal
+}
+.accordion .accordion-navigation>a, .accordion dd>a, .button, .top-bar-section ul li>a, a, body, button, dl, h1, h2, h3, h4, h5, h6, input, label, li, ol, p, table, td, textarea, thead, tr, ul {
+	font-family: dinregular, sans-serif
+}
+h4 a {
+	font-size: 1.2rem
+}
+h3.tsheading a {
+	color: #000
+}
+header {
+	padding: 15px 0 0;
+	border-width: 0;
+	background: top center no-repeat #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+.showcase, .workflow {
+	padding: 20px 0
+}
+.contain-to-grid {
+	background: no-repeat #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+.fixed {
+	background-position: top center;
+	border-width: 0 0 1px
+}
+.medpage, body.page-id-10, body.page-id-14, body.page-id-6 {
+	background: #f8cde2
+}
+a.logo {
+	height: 45px;
+	width: 250px;
+	color: #e94683;
+	font-size: 24px
+}
+#gallery-1 img, #gallery-2 img, #gallery-3 img, #gallery-4 img{
+	border:0 !important;
+}
+div.mobile-gallery{
+   display: none;
+}
+.top-bar {
+	background: 0 0
+}
+.panel {
+	background: #f5f5f5
+}
+table.p {
+	margin-top: 20px
+}
+table.p thead {
+	background-color: #008CBA
+}
+table.p thead a, table.p thead h1, table.p thead h2, table.p thead h3, table.p thead h4, table.p thead h5, table.p thead h6, table.p thead p {
+	color: #fff
+}
+table tr.alt, table tr.even, table tr:nth-of-type(even) {
+	background: #EAEAEA!important
+}
+table.p tr:last-child td:first-child {
+	color: red
+}
+.questions, .questions h1 {
+	color: #fff
+}
+span.small {
+	font-size: .4em
+}
+.questions {
+	background: #008CBA;
+	text-align: left;
+	border-width: 1px 0;
+	line-height: 1.8
+}
+.apply, .questions h1, .workflow, copyright .row, footer, h6.f1 {
+	text-align: center
+}
+.questions h6 {
+	font-size: 1.3em;
+	font-weight: 700;
+	font-family: "Courier New", Courier, monospace;
+	color: #D5D5D5
+}
+.apply, .apply h3 {
+	color: #fff
+}
+.shwl {
+	border-width: 1px 0 1px 1px
+}
+.shwr {
+	border-width: 1px 1px 1px 0
+}
+.workflow {
+	background-color: #fff;
+	border-width: 1px 0 0
+}
+.apply {
+	background: #1eaace;
+	border-width: 1px 0
+}
+footer, footer h1 {
+	color: #b0b0b0
+}
+h6.f1 {
+	line-height: 70px
+}
+footer {
+	background-color: #fff;
+	border-width: 0;
+	padding: 50px 0 0 0;
+}
+a.bki {
+	background: url(img/BKI-logo.png) no-repeat;
+	width: 80px;
+	height: 52px;
+	background-size: cover
+}
+a.lipton {
+	background: url(img/Lipton-logo.png) no-repeat;
+	width: 60px;
+	height: 60px;
+	background-size: cover
+}
+a.stot {
+	display: block;
+	background: url(img/SB-logo.png) no-repeat;
+	width: 300px;
+	height: 54px;
+	background-size: cover
+}
+a.darjeling, a.fruit, a.green {
+	display: block;
+	width: 120px;
+	height: 196px
+}
+a.green {
+	background: url(img/green-tea.png) no-repeat;
+	background-size: cover
+}
+a.fruit {
+	background: url(img/fruit-tea.png) no-repeat;
+	background-size: cover
+}
+a.darjeling {
+	background: url(img/darjeeling-tea.png) no-repeat;
+	background-size: cover
+}
+a.alltea {
+	display: block;
+	background: url(img/group-product.png) no-repeat;
+	width: 540px;
+	height: 375px;
+	background-size: contain
+}
+ul.gtea, ul.tea {
+	margin: -145px 0 0;
+	display: block;
+	float: right
+}
+ul.gtea {
+	margin-top: -70px
+}
+ul.partner {
+	margin: 0
+}
+ul.partner li {
+	list-style: none;
+	float: left;
+	margin-right: 25.5%
+}
+ul.gtea li, ul.tea li {
+	float: left;
+	list-style: none;
+	margin-right: 15px
+}
+ul.partner li:last-child {
+	margin-right: 0
+}
+copyright .row {
+	padding: 20px 0
+}
+a.spnsr {
+	display: inline-block;
+	font-size:0;
+	width: 150px;
+	height: 29px;
+	background: url(img/avalonia-logo.png) no-repeat;
+	background-size: contain;
+}
+.spnsr-block {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+ul.slick-dots {
+	margin: 0;
+	bottom: -25px
+}
+ul.address-list li {
+	width: 19%;
+	float: left;
+	list-style: none;
+	font-size: .8em
+}
+li.accordion-navigation:last-child a {
+	color: red
+}
+.accordion .accordion-navigation.active>a, .accordion .accordion-navigation>a:hover, .accordion dd.active>a, .accordion dd>a:hover {
+	background: #77c043
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #e7e7e8;
+	color: #949599
+}
+.top-bar-section ul li>a {
+	color: #000
+}
+.homepage, .presspage, .produktpage {
+	background-position: top left;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+.medpage, .opskrifter {
+	background-position: top right;
+	background-repeat: no-repeat
+}
+.medpage {
+	background-size: 51%
+}
+.opskrifter {
+	background-size: contain;
+	height: 605px
+}
+.pform, article#post-12 {
+	background: #f8cde2
+}
+.postcard {
+	background-position: top left;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+.produktpage {
+	background-position: top right;
+	background-size: contain;
+	background-color: #f8cde2
+}
+.produktpage-footer {
+	padding: 0
+}
+.post-16 h1 {
+	font-size: 7rem;
+	color: #fff;
+	line-height: .91
+}
+.post-16 p {
+	font-size: 1.3rem;
+	color: #000
+}
+.post-16 strong a {
+	font-size: 2rem;
+	color: #000
+}
+.plist h2, .plist h3 {
+	text-align: left
+}
+.ecard, .opskrifter.entry-content, article#post-30 {
+	text-align: center
+}
+.plist h2 {
+	padding: 2% 0;
+	margin: 0
+}
+.prfooter {
+	background: #eebdda
+}
+.prfooter .button {
+	font-size: 2rem;
+	margin: 0;
+	padding: .5% 1.6%
+}
+.prfooterc {
+	padding: 2% 0;/* background:url(img/BKI-logo.png) 100px 40px no-repeat; *//* background-size:9% */
+}
+.prfooterc img {
+	float: left;
+	padding-left: 5%
+}
+#gallery-1 img, #gallery-2 img {
+	border: 0!important
+}
+.presspage {
+	background-color: #fff;
+	background-position: top left
+}
+.press-text {
+	padding: 2%
+}
+article#post-10 .press-text p {
+	font-size: 1em
+}
+.home-text {
+	background: url(img/hmbg.png);
+	padding: 3% 3.5% 0;
+	color: #fff
+}
+.med-text {
+	padding: 3%;
+	color: #fff;
+	background: #f8cde2
+}
+.product-text {
+	padding: 8% 3% 3%;
+	background: #f8cde2
+}
+.opskrifter-text {
+	padding: 4% 3%;
+	color: #fff;
+	background: url(img/cup-of-tea-page.jpg) bottom center no-repeat #f8cde2;
+	background-size: contain;
+	height: 605px
+}
+.postcard-text {
+	padding: 6% 3% 15%;
+	background: url(img/bcancer.png) top right no-repeat;
+	background-size: contain
+}
+.home-text p, .med-text p {
+	font-size: 2rem
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 5.75rem;
+	color: #fff;
+	line-height: 1;
+	padding: 0;
+	margin: 0
+}
+.med-text blockquote {
+	font-size: 6.75rem
+}
+.home-text h2 a, .home-text h3, .med-text h2 a, .med-text h3 {
+	color: #fff
+}
+p.price span {
+	position: relative;
+	top: -45px
+}
+p.price strong {
+	color: #E94B86;
+	font-size: 6.7rem;
+	font-family: dinbold
+}
+.t-all {
+	transition: all 250ms ease-in-out 0s
+}
+.presse-footer {
+	background: url(img/hmbg.png)
+}
+.presse-footer h1.entry-title {
+	font-size: 6.5rem;
+	color: #fff
+}
+ul.list-checked li:before {
+	content: '✔';
+	margin-left: -1em;
+	margin-right: .1em
+}
+ul.list-checked {
+	list-style: none;
+	font-size: .95em
+}
+article#post-30 .post-header {
+	display: none
+}
+ul.social li {
+	width: 25%;
+	float: left;
+	list-style: none;
+	line-height: 20px
+}
+blockquote {
+	border-left: 0;
+	quotes: "\201C""\201D""\2018""\2019"
+}
+blockquote:after, blockquote:before {
+	color: #E94683;
+	content: "\201D";
+	font-size: 1em;
+	line-height: .1em;
+	margin-right: .05em
+}
+blockquote:after {
+	margin-right: 0;
+	margin-left: 0
+}
+blockquote p {
+	display: inline
+}
+img.spcl, nav.tab-bar, p.lamount, p.lprice {
+	display: none
+}
+.om-kampagnen {
+	background-color: #f8cde2
+}
+.kampagnen {
+	padding: 0
+}
+.kampagnen-text {
+	padding: 3% 12%
+}
+.kampagnen-text a {
+	color: #fff;
+	font-size: 1.8rem;
+	line-height: 2
+}
+.opskrifter.entry-content h1 {
+	color: #fff
+}
+.opskrifter.entry-content h2 a {
+	font-size: 1.8rem
+}
+.cradform p {
+	font-size: 1.5em;
+	line-height: 2;
+	margin: 5px 0;
+	color: #fff
+}
+p.hp, p.vp {
+	margin-bottom: 0
+}
+article#post-107 p span {
+	font-size: 3rem
+}
+.Postkort h1 {
+	font-size: 5.6rem;
+	color: #959595
+}
+.Postkort h3 {
+	font-size: 3.6rem;
+	color: #e94683;
+	line-height: .2
+}
+#post-14 .home-text {
+	background: 0 0
+}
+.home-text h3 {
+	font-size: 2.4rem;
+	margin-left: 45px;
+	line-height: 1.5
+}
+.home-text h4 a {
+	font-size: 2rem;
+	line-height: 1.5;
+	margin-left: 0
+}
+.top-bar-section ul li>a {
+	font-size: 1.375rem
+}
+span.dline {
+	margin-left: 40px
+}
+p.hp {
+	line-height: .567891
+}
+.med-text h3 {
+	font-size: 2.7rem;
+	margin-left: 60px
+}
+a.button.gorB {
+	font-size: 2rem
+}
+.med-text p span {
+	font-size: 2.9rem;
+	color: #fff!important
+}
+a.stoet {
+	font-size: 3.3rem
+}
+p.vp {
+	line-height: 1.4
+}
+p.number {
+	margin-top: 65px
+}
+.med-tricky {
+	height: 0
+}
+.clear {
+	clear: both
+}
+p.pftr {
+	margin-left: 95px;
+	margin-top: 15px
+}
+p.pbtr {
+	margin-top: 25px
+}
+.ecard-container input[type=text], .ecard-container input[type=email], .ecard-container input[type=submit], .ecard-container textarea {
+	padding: 6px;
+	margin-bottom: 4px
+}
+.ecard-container #captcha {
+	vertical-align: middle
+}
+.ecard {
+	float: left;
+	margin-right: 1px
+}
+.ecard input[type=radio] {
+	-webkit-appearance: radio
+}
+.m-btn.blue {
+	font-size: 16px;
+	padding: 10px;
+	border: 0
+}
+
+@media screen and (max-width:1866px) {
+p.pftr {
+	margin-left: 60px
+}
+.presse-footer h1.entry-title {
+	font-size: 6.3rem
+}
+}
+
+@media screen and (max-width:1680px) {
+ul.partner li {
+	margin-right: 21.5%
+}
+.presse-footer h1.entry-title {
+	font-size: 6.3rem
+}
+.home-text h3 {
+	font-size: 2.3rem
+}
+p.price strong {
+	font-size: 6.3rem
+}
+.home-text h4 a, .home-text p, .med-text p {
+	font-size: 1.6rem
+}
+.med-text blockquote {
+	font-size: 5.4rem
+}
+.med-text h3 {
+	font-size: 2.6rem
+}
+.opskrifter-text {
+	height: 588px
+}
+.opskrifter {
+	height: 590px
+}
+ul.gtea {
+	margin-top: -60px
+}
+a.alltea {
+	width: 490px;
+	height: 375px
+}
+.post-16 h1 {
+	font-size: 6.4rem
+}
+}
+
+@media screen and (max-width:1676px) {
+ul.partner li {
+	margin-right: 17.5%
+}
+.home-text {
+	padding: 4% 3.5%
+}
+.med-text {
+	padding: 2% 2.5%
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 4.75rem
+}
+.home-text h3 {
+	font-size: 1.9rem
+}
+article#post-10 .press-text p {
+	font-size: .8em
+}
+article#post-10 .press-text strong {
+	font-size: .9em
+}
+article#post-10 .press-text p>strong {
+	font-size: 1.1em
+}
+.presse-footer h1.entry-title {
+	font-size: 5.3rem
+}
+.top-bar-section ul li {
+	margin: 0 6px 0 0
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	padding: 0 .65375rem
+}
+.home-text p, .med-text p {
+	font-size: 1.52rem
+}
+p.price strong {
+	font-size: 5rem
+}
+ul.tea li {
+	margin-right: 8px
+}
+.home-text h4 a {
+	font-size: 1.3rem
+}
+p.price span {
+	top: -35px
+}
+.top-bar-section ul li>a {
+	font-size: 1rem
+}
+a.darjeling, a.fruit, a.green {
+	width: 110px;
+	height: 180px
+}
+.med-text h3 {
+	font-size: 2.2rem
+}
+.Postkort h1 {
+	font-size: 3.6rem
+}
+.Postkort h3 {
+	font-size: 2.3rem
+}
+a.alltea {
+	width: 420px;
+	height: 320px
+}
+ul.gtea {
+	margin-top: -60px
+}
+.post-16 h1 {
+	font-size: 5rem
+}
+.post-16 p {
+	font-size: 1rem
+}
+.opskrifter, .opskrifter-text {
+	height: 508px
+}
+.opskrifter-text {
+	background-size: 75%
+}
+p.pftr {
+	margin-left: 23px
+}
+}
+
+@media screen and (max-width:1435px) {
+p.pftr {
+	margin-left: 0
+}
+.home-text {
+	padding: 5.5% 5%
+}
+.med-text {
+	padding: 4.5% 4%
+}
+.top-bar-section ul li>a {
+	font-size: .9425rem
+}
+p.price strong {
+	font-size: 4.6rem
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 4.25rem
+}
+span.dline {
+	margin-left: 36px
+}
+.home-text h3 {
+	font-size: 1.7rem;
+	margin-left: 40px
+}
+.home-text p, .med-text p {
+	font-size: 1.32rem
+}
+a.darjeling, a.fruit, a.green {
+	width: 95px;
+	height: 165px
+}
+ul.tea {
+	margin-top: -100px
+}
+ul.partner li {
+	margin-right: 15%
+}
+p.number {
+	margin-top: 30px
+}
+.opskrifter, .opskrifter-text {
+	height: 473px
+}
+.presse-footer h1.entry-title {
+	font-size: 5rem
+}
+ul.gtea {
+	margin-top: -45px
+}
+.prfooter a.bki {
+    width: 135px;
+    height: 80px;
+}
+}
+
+@media screen and (max-width:1355px) {
+.home-text blockquote, .med-text blockquote {
+	font-size: 4.3rem
+}
+.home-text h3 {
+	font-size: 1.7rem
+}
+.home-text p, .med-text p {
+	font-size: 1.2rem
+}
+p.price strong {
+	font-size: 4.2rem
+}
+p.price span {
+	top: -25px
+}
+ul.partner li {
+	margin-right: 12%
+}
+.home-text {
+	padding: 3.8% 4%
+}
+.med-text {
+	padding: 2.45% 2%
+}
+.med-text blockquote {
+	font-size: 3.75rem
+}
+a.darjeling, a.fruit, a.green {
+	width: 90px;
+	height: 150px
+}
+ul.gtea, ul.tea {
+	margin-top: -100px
+}
+span.dline {
+	margin-left: 32px
+}
+.home-text h3 {
+	margin-left: 36px
+}
+.top-bar-section ul li>a {
+	font-size: .8725rem
+}
+article#post-10 .press-text p, article#post-10 .press-text strong {
+	font-size: .71em
+}
+article#post-10 .press-text p>strong {
+	font-size: 1.1em
+}
+.opskrifter, .opskrifter-text {
+	height: 450px
+}
+a.alltea {
+	width: 380px;
+	height: 285px
+}
+ul.gtea {
+	margin-top: -45px
+}
+.post-16 h1 {
+	font-size: 4.4rem
+}
+.presse-footer h1.entry-title {
+	font-size: 4.5rem
+}
+p.pftr {
+	margin-left: 0;
+	font-size: .9rem
+}
+}
+
+@media screen and (max-width:1236px) {
+.medpage, .ops.medpage {
+	background-position: center right
+}
+.row.show-for-medium-up.tt {
+	display: none!important
+}
+nav.tab-bar {
+	display: block
+}
+h4 a {
+	font-size: .9rem
+}
+.panel.p {
+	padding: .8rem
+}
+ul.address-list, ul.social {
+	margin-left: 0
+}
+ul.address-list li, ul.social li {
+	width: 100%;
+	float: none
+}
+ul.tea li {
+	margin-right: 5px
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 3.5rem
+}
+a.darjeling, a.fruit, a.green {
+	width: 80px;
+	height: 130px
+}
+header {
+	padding: 0
+}
+ul.tea {
+	margin-top: -78px
+}
+.medpage {
+	background-size: 54%
+}
+.ops.medpage, .postcard-text, .presspage {
+	background-size: contain
+}
+.presse-footer h1.entry-title {
+	font-size: 3.25rem
+}
+.home-text {
+	padding: 2.5% 2.3%
+}
+span.dline {
+	margin-left: 30px
+}
+.home-text h3 {
+	font-size: 1.4rem;
+	margin-left: 34px
+}
+.home-text p, .med-text p {
+	font-size: 1.15rem
+}
+p.price strong {
+	font-size: 3.5rem
+}
+p.price span {
+	top: -22px
+}
+.med-text h3 {
+	font-size: 1.8rem
+}
+a.stoet {
+	font-size: 1.9rem
+}
+.med-text {
+	padding: 2.7% 2%
+}
+.opskrifter.entry-content h1 {
+	font-size: 2.2rem
+}
+a.alltea {
+	width: 310px;
+	height: 240px
+}
+ul.gtea {
+	margin-top: -35px
+}
+.post-16 h1 {
+	font-size: 3.9rem
+}
+.post-16 p {
+	font-size: .7891rem
+}
+.opskrifter-text {
+	background-size: 68%
+}
+.opskrifter, .opskrifter-text {
+	height: 360px
+}
+ul.partner li {
+	margin-right: 4%
+}
+p.pftr {
+	margin-left: 0;
+	font-size: .7rem
+}
+}
+
+@media screen and (max-width:1020px) {
+.home-text, .home-text p, .med-text, .med-text p, .product-text {
+	text-align: center
+}
+.presspage {
+	background-image: none!important
+}
+img.spcl {
+	display: block;
+	padding-right: 15px
+}
+.pimg, p.price {
+	display: none
+}
+ul.partner li {
+	margin-right: 4%
+}
+ul.tea {
+	margin-top: -40px
+}
+.kampagnen img {
+	width: 100%
+}
+.presse-footer h1.entry-title {
+	font-size: 2.75rem
+}
+.Postkort h1 {
+	font-size: 2.6rem
+}
+.Postkort h3 {
+	font-size: 2rem
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 5rem
+}
+span.dline {
+	margin-left: 45px
+}
+.home-text h3 {
+	font-size: 2.2rem
+}
+.home-text p, .med-text p {
+	font-size: 1.45rem
+}
+p.lamount, p.lprice {
+	display: block
+}
+p.lprice {
+	margin: 0
+}
+p.lamount {
+	font-size: 5rem;
+	font-family: dinbold;
+	color: #E94683;
+	margin-bottom: 25px
+}
+.home-text h4 a {
+	font-size: 2.1rem
+}
+.home-l {
+	height: 325px!important
+}
+.homepage {
+	background-image: url(img/ihome-page-image.jpg)!important;
+	background-size: contain
+}
+.med-tricky {
+	height: 400px
+}
+.medpage {
+	background-position: top center;
+	background-size: 74%
+}
+p.pftr {
+	font-size: .8rem;
+	margin-left: 0;
+	padding-left: 5px;
+	padding-top: 8px
+}
+.opskrifter-text {
+	height: 425px
+}
+.opskrifter {
+	height: 510px;
+	background-size: cover
+}
+.product-text {
+	margin-top: 475px
+}
+footer {
+	padding: 50px 0 10px
+}
+footer.mop {
+	padding: 20px 0
+}
+a.bki {
+	width: 65px;
+	height: 45px
+}
+a.lipton {
+	width: 45px;
+	height: 45px
+}
+a.stot {
+	width: 205px;
+	height: 35px
+}
+article#post-10 .press-text p, article#post-10 .press-text strong {
+	font-size: .9em
+}
+.spl {
+	padding-left: 180px
+}
+.prfooter a.bki {
+    width: 100px;
+    height: 70px;
+}
+}
+
+@media screen and (max-width:767px) {
+div.desktop-gallery{
+	display: none;
+}
+div.mobile-gallery{
+ display: block;
+}
+article#post-10 .press-text p {
+	font-size: 13px
+}
+a.bki {
+	width: 55px;
+	height: 37px
+}
+a.lipton {
+	width: 35px;
+	height: 33px
+}
+a.stot {
+	width: 178px;
+	height: 32px
+}
+a.darjeling, a.fruit, a.green {
+	width: 61px;
+	height: 115px
+}
+p.number {
+	margin-top: 25px
+}
+p.pftr {
+	padding-left: 0
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 4rem
+}
+.home-text h3 {
+	font-size: 1.92rem
+}
+.presse-footer {
+	width: 100%
+}
+}
+
+@media screen and (max-width:568px) {
+article#post-10 .press-text p {
+	font-size: 13px
+}
+.home-l {
+	height: 230px!important
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 3.6rem
+}
+.home-text h3 {
+	font-size: 1.5rem;
+	margin-left: 15px
+}
+a.lipton {
+	width: 30px;
+	height: 30px
+}
+a.stot {
+	width: 150px;
+	height: 25px
+}
+a.bki {
+	width: 50px;
+	height: 30px
+}
+a.darjeling, a.fruit, a.green {
+	width: 50px;
+	height: 91px
+}
+ul.tea li {
+	margin-right: 5px
+}
+.med-tricky {
+	height: 290px
+}
+p.number {
+	margin-top: 20px
+}
+.med-text p {
+	font-size: 1.25rem
+}
+.presse-footer {
+	width: 100%
+}
+.presse-footer h1.entry-title {
+	font-size: 3.75rem;
+	text-align: center
+}
+.Postkort h1 {
+	font-size: 2.2rem
+}
+.Postkort h3 {
+	font-size: 1.5rem
+}
+.postcard-text {
+	padding: 5% 3% 14%
+}
+.product-text {
+	margin-top: 215px
+}
+.post-16 h1 {
+	text-shadow: 1px 1px 2px #000
+}
+.gallery-item {
+	width: 33%!important
+}
+}
+
+@media screen and (max-width:500px) {
+.med-text h3, p.pftr {
+	margin-left: 0
+}
+.home-l {
+	height: 170px!important
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 2.9rem
+}
+.home-text h3 {
+	font-size: 1.3rem
+}
+p.lamount {
+	font-size: 4rem;
+	margin-bottom: 10px
+}
+.post-16 p, p.number a {
+	margin-bottom: 0
+}
+.home-text h4 a {
+	font-size: 1.5rem
+}
+.ftrlogo {
+	width: 100%
+}
+ul.tea {
+	margin-top: 0
+}
+a.bki {
+	width: 65px;
+	height: 38px
+}
+a.lipton {
+	width: 40px;
+	height: 40px
+}
+a.stot {
+	width: 230px;
+	height: 40px
+}
+ul.partner li {
+	margin-right: 3%
+}
+footer {
+	padding: 15px 0 10px
+}
+a.darjeling, a.fruit, a.green {
+	width: 117px;
+	height: 200px
+}
+.med-tricky {
+	height: 220px
+}
+.med-text p {
+	font-size: 1rem
+}
+p.number {
+	margin-top: 5px
+}
+.presse-footer h1.entry-title {
+	font-size: 3.05rem
+}
+.opskrifter.entry-content h1 {
+	font-size: 1.8rem
+}
+.opskrifter, .opskrifter-text {
+	height: 295px
+}
+.Postkort h1 {
+	font-size: 1.7rem
+}
+.Postkort h3 {
+	font-size: 1.1rem
+}
+.post-16 h1 {
+	font-size: 3rem
+}
+.product-text {
+	padding: 0 3% 3%;
+	margin-top: 230px
+}
+.prfooter .button {
+	font-size: 1.5rem
+}
+.prfooterc {
+	background-position: 10px 18px;
+	background-size: 20%
+}
+p.pftr {
+	padding-left: 0;
+	padding-top: 0;
+	margin-top: 15px
+}
+.post-16 p {
+    font-size: .58rem;
+}
+}
+
+@media screen and (max-width:405px) {
+.home-text blockquote, .med-text blockquote {
+	font-size: 2.6rem
+}
+.home-text h3 {
+	font-size: 1.1rem
+}
+.home-text p {
+	font-size: 1.25rem
+}
+p.lamount {
+	font-size: 4rem
+}
+a.bki {
+	width: 68px;
+	height: 40px
+}
+a.lipton {
+	width: 40px;
+	height: 40px
+}
+a.stot {
+	width: 205px;
+	height: 36px
+}
+a.darjeling, a.fruit, a.green {
+	width: 100px;
+	height: 170px
+}
+ul.tea li {
+	margin-right: 9px
+}
+ul.tea {
+	float: initial
+}
+.med-text h3 {
+	font-size: 1.6rem
+}
+.presse-footer h1.entry-title {
+	font-size: 2.75rem
+}
+p.pftr {
+	padding-left: 0;
+	font-size: .75rem
+}
+p.pbtr {
+	margin-top: 15px
+}
+.opskrifter.entry-content h1 {
+	font-size: 1.7rem
+}
+.Postkort h1 {
+	font-size: 1.5rem
+}
+.Postkort h3 {
+	font-size: 1rem
+}
+.postcard-text {
+	padding: 5% 3% 13%
+}
+ul.gtea {
+	margin-top: -10px
+}
+.post-16 h1 {
+	font-size: 2.9rem
+}
+.product-text {
+	margin-top: 185px
+}
+.post-16 strong a {
+	font-size: 1.5rem
+}
+.prfooterc {
+	background-size: 17%
+}
+.med-text p span {
+	font-size: 2.3rem
+}
+.med-text p {
+	font-size: .85rem;
+	line-height: 1
+}
+article#post-10 .press-text strong {
+	font-size: .75em
+}
+.prfooter a.bki {
+    width: 80px;
+    height: 55px;
+}
+}
+
+@media screen and (max-width:374px) {
+.home-l {
+	height: 130px!important
+}
+.home-text blockquote, .med-text blockquote {
+	font-size: 2rem
+}
+.home-text h3 {
+	font-size: .99rem;
+	margin-left: 0;
+	margin-bottom: 0
+}
+span.dline {
+	margin-left: 18px
+}
+.home-text p, .med-text p {
+	font-size: 1rem;
+	margin-bottom: 5px
+}
+p.lamount {
+	font-size: 3rem;
+	margin-bottom: 0;
+	line-height: 1.3
+}
+.home-text h4 a {
+	font-size: 1.1rem
+}
+ul.partner li {
+	margin-right: 3%
+}
+a.lipton {
+	width: 33px;
+	height: 33px
+}
+a.bki {
+	width: 50px;
+	height: 35px
+}
+a.stot {
+	width: 185px;
+	height: 32px
+}
+ul.tea li {
+	margin-right: 15px
+}
+a.darjeling, a.fruit, a.green {
+	width: 80px;
+	height: 130px
+}
+.med-tricky {
+	height: 160px
+}
+.med-text h3 {
+	font-size: 1.4rem;
+	margin-left: 0
+}
+.med-text p span {
+	font-size: 1.9rem
+}
+.med-text p {
+	font-size: .7791rem;
+	margin-bottom: 5px
+}
+a.button.gorB {
+	font-size: 1.5rem
+}
+.presse-footer h1.entry-title {
+	font-size: 2.25rem;
+	text-align: center
+}
+p.pftr {
+	font-size: .65rem
+}
+.opskrifter.entry-content h1, .opskrifter.entry-content h2 a {
+	font-size: 1.4rem
+}
+.opskrifter {
+	height: 225px
+}
+.opskrifter-text {
+	height: 235px
+}
+.Postkort h3 {
+	font-size: .8rem
+}
+.Postkort h1 {
+	font-size: 1.2rem
+}
+.postcard-text {
+	padding: 5% 3% 12%
+}
+ul.gtea {
+	margin-top: 0
+}
+ul.gtea li {
+	margin-right: 0
+}
+a.alltea {
+	width: 285px;
+	height: 220px
+}
+.post-16 h1 {
+	font-size: 2rem
+}
+.post-16 strong a {
+	font-size: 1.4rem
+}
+.product-text {
+	margin-top: 150px
+}
+.gallery-item {
+	width: 33%!important
+}
+p.pftr {
+	padding-left: 5px;
+	padding-top: 8px
+}
+.prfooter .button {
+	font-size: 1.1rem
+}
+.prfooterc {
+	background-position: 10px 16px;
+	background-size: 15%
+}
+.prfooter a.bki {
+    width: 60px;
+    height: 45px;
+}
+}
